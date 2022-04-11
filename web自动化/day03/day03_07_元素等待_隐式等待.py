@@ -12,7 +12,10 @@
     x: x为driver,它是WebDriverWait类将传入的driver赋值给类self._driver，until方法调用了self._driver;
 提示：
 WebDriverWait(driver,timeout=10, poll_frequency=0.5).until(lambda x:x.find_element_by_id("#user"))返回的一个元素。
-显示等待与隐式等待区别：1. 显示等待：针对单个元素生效    2. 隐式等待：针对全局元素生效
+显式与隐式区别
+1. 作用域：隐式为全局元素，显式等待为单个元素有效
+2. 使用方法：隐式等待直接通过驱动对象调用，而显式等待方法封装在WebDriverWait类中
+3. 达到最大超时时长后抛出的异常不同：隐式为NoSuchElementException，显式等待为TimeoutException
 """
 
 # 导包
