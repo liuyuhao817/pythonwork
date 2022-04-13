@@ -1,0 +1,9 @@
+test01 (day06_01_unittest跳过.Test01) ... skipped '该方法暂未是实现完成'
+test02 (day06_01_unittest跳过.Test01) ... skipped '该版本大于30跳过'
+test_a (day06_01_unittest跳过.TestSkip2) ... skipped '没原因，就想跳过'
+test_b (day06_01_unittest跳过.TestSkip2) ... skipped '没原因，就想跳过'
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK (skipped=4)
