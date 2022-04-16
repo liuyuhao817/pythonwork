@@ -1,0 +1,6 @@
+2022-04-15 15:27:50,585 ERROR [mylogger] [logger_封装.py(<module>:36)] - error
+2022-04-15 15:27:50,585 CRITICAL [mylogger] [logger_封装.py(<module>:37)] - critical
+2022-04-15 15:29:42,172 ERROR [mylogger] [logger_封装.py(<module>:42)] - error
+2022-04-15 15:29:42,172 CRITICAL [mylogger] [logger_封装.py(<module>:43)] - critical
+2022-04-15 15:47:11,736 ERROR [mylogger] [logger_封装.py(<module>:56)] - error
+2022-04-15 15:47:11,736 CRITICAL [mylogger] [logger_封装.py(<module>:57)] - critical

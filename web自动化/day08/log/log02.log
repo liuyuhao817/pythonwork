@@ -1,0 +1,2 @@
+2022-04-15 15:13:03,118 ERROR [mylogger] [logging_高级用法.py(<module>:53)] - error
+2022-04-15 15:13:03,118 CRITICAL [mylogger] [logging_高级用法.py(<module>:54)] - critical

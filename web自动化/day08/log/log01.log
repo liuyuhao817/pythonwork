@@ -1,0 +1,4 @@
+2022-04-15 12:05:08,036 INFO [root] [logging_日志.py(<module>:46)] - 这是一条info信息
+2022-04-15 12:05:08,036 WARNING [root] [logging_日志.py(<module>:47)] - 这是一条warning信息
+2022-04-15 12:05:08,036 ERROR [root] [logging_日志.py(<module>:48)] - 这是一条error信息
+2022-04-15 12:05:08,036 CRITICAL [root] [logging_日志.py(<module>:49)] - 这是一条critical信息
