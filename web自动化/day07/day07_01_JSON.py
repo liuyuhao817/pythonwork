@@ -36,8 +36,9 @@ print("转换后格式：",type(dict_data))
 print(dict_data)
 
 # 读取JSON文件  读取时不写 默认就是r
-with open('data.json',"r", encoding='UTF-8') as f:
+with open('./login.json',"r", encoding='UTF-8') as f:
     data = json.load(f) # 返回的数据类型为字典或列表
+    print(data)
 
 
 # 写入JSON文件
