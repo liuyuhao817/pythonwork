@@ -1,8 +1,8 @@
 # 导包
 import time
 import unittest
-from scripts.test_login import TestLogin
-from tools.HTMLTestRunner import HTMLTestRunner
+from 接口自动化.IHRM.scripts.test_login import TestLogin
+from 接口自动化.IHRM.tools.HTMLTestRunner import HTMLTestRunner
 # 组装测试套件
 suite = unittest.TestSuite()
 suite.addTest(unittest.makeSuite(TestLogin))

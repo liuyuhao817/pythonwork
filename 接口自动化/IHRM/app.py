@@ -7,5 +7,6 @@ TOKEN = None
 # 请求头数据
 headers_data = {
     "Content-Type": "application/json",
-    "Authorization": "Bearer bcfc9d2e-a575-4240-9569-f5f860619f97"
+    # "Authorization": "Bearer 6a34d264-3f81-4e47-ba3e-25e80882b7a8"
+    # token这个值是在登录后携带的 需要在登录后进行token保存
 }
