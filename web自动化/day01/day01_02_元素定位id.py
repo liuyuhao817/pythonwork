@@ -3,12 +3,12 @@
 元素定位依赖于  标签名 属性 层级 路径
 所有定位的前提都是元素都必须有这个属性
 定位方法：
-    1、id
-    2、name
-    3、class_name（使用元素的class属性定位）
-    4、teg_name（标签名称<标签名..../>）
-    5、link_text（定位超链接a标签）
-    6、partial_link_text（定位超链接a标签模糊）
+    1、id    基于元素id
+    2、name  基于元素name属性
+    3、class_name（使用元素的class属性定位）   基于元素class_name属性
+    4、teg_name（标签名称<标签名..../>）  基于元素标签名
+    5、link_text（定位超链接a标签）    基于元素文本文字   必须一致
+    6、partial_link_text（定位超链接a标签模糊）  基于元素文本文字  包含就行
     7、xpath（基于元素定位）
     8、css（元素选择器）
         提示：
@@ -51,4 +51,6 @@ driver.quit()
 4、查找用户元素
 5、输入
 6、关闭驱动
+八大元素定位方式
+    id name class_name teg_name link_text partial_link_text xpath css
 """

@@ -436,3 +436,16 @@ TCP服务器
 # generate(5)
 
 
+# a = []
+# a.append((1,))
+# b = ['a','b','c']
+# a.extend(b)
+# print(a)
+# c = a.index('b')
+# print(c)
+# a.insert(2,True)
+# print(a)
+# for i,j in enumerate(a):
+#     if type(j)==str:
+#         print(i,j)
+

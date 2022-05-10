@@ -4,6 +4,8 @@
 参数说明：
     By.xxx :为By类的类型 如：By.ID
     value: 元素的定位值 如： "userA"
+find_element_by_xxx  他们的底层都是调用了By
+所以 find_element(By.八大定位方法,"值") 也是可以查找的 By要先导包
 案例演示 需求：
     1、使用driver.find_element()方法
     2、输入用户名，admin
@@ -27,7 +29,6 @@ driver.get(url)
 # 使用find_element()定位用户名
 driver.find_element(By.ID,"userA").send_keys("admin")
 driver.find_element(By.CSS_SELECTOR,"#passwordA").send_keys("123456")
-
 # 暂停
 sleep(1)
 
